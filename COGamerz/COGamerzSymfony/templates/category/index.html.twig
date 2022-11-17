@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CategoryController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+
+<div class=" my-5 justify-content-center">
+    <div class="footer__nav">
+        <ul class="bg-success py-5">
+            <li><a href="{{ path('app_pow') }}">Play of the week</a></li>
+            <li><a href="{{ path('app_wr') }}">World records</a></li>
+            <li><a href="{{ path('app_fs') }}">Funny stuff</a></li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
